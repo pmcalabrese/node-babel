@@ -1,5 +1,5 @@
 # Node.js Babel Boilerplate
-A minimal boilerplate for running Node.js with Babel.
+A minimal boilerplate for running Node.js with Babel or Webapck 4.
 
 ## 1. Clone project
 
@@ -25,3 +25,11 @@ When you are done you can run your application with:
 You also have the option to build once with
 
     npm run build
+
+## 5. With webpack 4
+
+If Babel is not your thing, a minimal configuration for Webpack 4 has been added. This allow you to use webpack for buiild and bundle the application. Source map in development mode are working.
+The commands are:
+- npm run webpack:build
+- npm run webpack:watch
+- npm run webpack:buildprod
