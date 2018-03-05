@@ -30,6 +30,6 @@ You also have the option to build once with
 
 If Babel is not your thing, a minimal configuration for Webpack 4 has been added. This allow you to use webpack for buiild and bundle the application. Source map in development mode are working.
 The commands are:
-- npm run webpack:build
-- npm run webpack:watch
-- npm run webpack:buildprod
+- `npm run webpack:build`
+- `npm run webpack:watch`
+- `npm run webpack:buildprod`
