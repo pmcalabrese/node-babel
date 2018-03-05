@@ -26,7 +26,7 @@ You also have the option to build once with
 
     npm run build
 
-## 5. With webpack 4
+## 5. Build with webpack 4
 
 If Babel is not your thing, a minimal configuration for Webpack 4 has been added. This allow you to use webpack for buiild and bundle the application. Source map in development mode are working.
 The commands are:
