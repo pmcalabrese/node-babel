@@ -34,7 +34,7 @@ The commands are:
 - `npm run webpack:watch`
 - `npm run webpack:buildprod`
 
-## 6. Build with webpack 4
+## 6. Build with Rollup
 
 If Babel is not your thing, a minimal configuration for Rollup has been added. This allow you to use Rollup for bundle your application. Source map in development mode are working.
 The commands are:
