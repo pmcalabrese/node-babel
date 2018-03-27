@@ -6,6 +6,7 @@ What you get:
 - a simple Babel configuration
 - a simple Webpack 4 configuration with sourcemaps
 - a simple Rollup configuration with sourcemaps
+- a simple setup for testing with Mocha
 
 ## 1. Clone project
 
