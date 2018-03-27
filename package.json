@@ -1,7 +1,7 @@
 {
   "name": "node-babel",
-  "version": "0.0.2",
-  "description": "A minimal boilerplate for running node.js with babel",
+  "version": "0.0.3",
+  "description": "A minimal boilerplate for running Node.js with Babel, Webpack or Rollup",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
@@ -9,7 +9,10 @@
     "build": "babel src/ -d dist/ --source-maps",
     "webpack:build": "webpack",
     "webpack:watch": "webpack -w",
-    "webpack:buildprod": "webpack -p"
+    "webpack:buildprod": "webpack -p",
+    "rollup:build": "rollup --config",
+    "rollup:watch": "rollup --config -w",
+    "rollup:buildprod": "NODE_ENV=production npm run rollup:build"
   },
   "author": "Pachito Marco Calabrese <pm.calabrese@gmail.com>",
   "license": "MIT",
@@ -18,7 +21,8 @@
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-preset-node8": "^1.2.0",
-    "webpack": "^4.1.0",
-    "webpack-cli": "^2.0.10"
+    "rollup": "^0.57.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
   }
 }
